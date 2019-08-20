@@ -1,3 +1,4 @@
 git test for file
 --doing modification from master
 --doing modification from new-branch1
+-- again modification from new-branch1
