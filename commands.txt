@@ -1,0 +1,239 @@
+[centos@ip-172-31-41-31 repo-aug]$ history
+    1  ls -lrt
+    2  ls -lart
+    3  df ./
+    4  df -k
+    5  df -h
+    6  df -H
+    7  pwd
+    8  cd ..
+    9  ll
+   10  cd ..
+   11  ll
+   12  cd
+   13  sudo su -
+   14  whoami
+   15  userid
+   16  user
+   17  ll
+   18  ll -a
+   19  git --version
+   20  sudo yum install -y git
+   21  git --version
+   22  which git
+   23  cd /usr/bin/
+   24  ls -lrt
+   25  ll git
+   26  ping www.google.com
+   27  exit
+   28  ls -lrt
+   29  ls -lart
+   30  cat .bash_profile
+   31  which git
+   32  git --version
+   33  ls -lrt
+   34  ll
+   35  mkdir repo-aug
+   36  cd repo-aug/
+   37  ll
+   38  pwd
+   39  git init
+   40  ll -a
+   41  cd .git
+   42  ll
+   43  ll -a
+   44  cd branches
+   45  ll
+   46  cd ..
+   47  cat config
+   48  cat description
+   49  ll -a
+   50  pwd
+   51  cd ..
+   52  ll
+   53  ll -a
+   54  cd hooks
+   55  cd .git
+   56  ll -a
+   57  cd hooks
+   58  ll
+   59  cat applypatch-msg.sample
+   60  cd ..
+   61  ll -a
+   62  cd
+   63  git status
+   64  cd repo-aug/
+   65  git status
+   66  git config --global user.name "Debasish Saha"
+   67  git config --global user.email "bmpcmejob@gmail.com"
+   68  cat /home/centos/.gitconfig
+   69  pwd
+   70  ll -a
+   71  vi .gitignore
+   72  cat .gitignore
+   73  git status
+   74  ll -a
+   75  git add .gitignore
+   76  git status
+   77  ll
+   78  ll -a
+   79  mkdir test
+   80  ll -a
+   81  git status
+   82  git log
+   83  git commit -m "adding .gitignore"
+   84  git status
+   85  git log
+   86  git log -p
+   87  ll
+   88  vi abc
+   89  git log --oneline
+   90  ll
+   91  ca abc
+   92  cat abc
+   93  git branch
+   94  git branch new-branch
+   95  git status
+   96  git checkout new-branch
+   97  git status
+   98  mv abc training.txt
+   99  git checkout master
+  100  cat training.txt
+  101  git status
+  102  git add training.txt
+  103  git status
+  104  git commit -m "new file training.txt"
+  105  cat training.txt
+  106  vi training.txt
+  107  cat training.txt
+  108  git status
+  109  git commit -am "modification on training.txt from master"
+  110  cat training.txt
+  111  ll
+  112  git checkout new-branch
+  113  git status
+  114  vi training.txt
+  115  ll
+  116  ll -a
+  117  git checkout master
+  118  ll
+  119  git status
+  120  git checkout new-branch
+  121  ll -a
+  122  git branch
+  123  git checkout master
+  124  ll
+  125  ls -la
+  126  git status
+  127  cat training.txt
+  128  git checkout new-branch
+  129  ll
+  130  git branch
+  131  git checkout master
+  132  git branch
+  133  git branch new-branch1
+  134  ll
+  135  cat training.txt
+  136  vi training.txt
+  137  git status
+  138  vi training.txt
+  139  git commit -am "test"
+  140  git branch
+  141  cat training.txt
+  142  git status
+  143  git checkout new-branch1
+  144  vi training.txt
+  145  git status
+  146  git commit -am "add changes from new-branch1"
+  147  cat training.txt
+  148  ll
+  149  git checkout master
+  150  ll
+  151  cat training.txt
+  152  ll
+  153  pwd
+  154  ll
+  155  git branch
+  156  ll
+  157  cat training.txt
+  158  git checkout new-branch
+  159  ll
+  160  git checkout new-branch1
+  161  ll
+  162  cat training.txt
+  163  git checkout master
+  164  git merge new-branch1
+  165  cat training.txt
+  166  git branch
+  167  git checkout new-branch1
+  168  ll
+  169  touch test_file.tx
+  170  mv  test_file.tx test_file.txt
+  171  ll
+  172  git status
+  173  git commit -am "new file added test_file.txt"
+  174  git add #       test_file.txt
+  175  git add test_file.txt
+  176  git commit -am "new file added test_file.txt"
+  177  git status
+  178  ll
+  179  git log --oneline
+  180  git branch
+  181  git checkout master
+  182  ll
+  183  vi training.txt
+  184  git commit -am "modification from master on training.txt"
+  185  fit status
+  186  git status
+  187  git merge new-branch1
+  188  ll
+  189  date
+  190  cat training.txt
+  191  git branch
+  192  git checkout new-branch1
+  193  ll
+  194  vi training.txt
+  195  git commit -am "modification from new-branch1"
+  196  ll
+  197  cat training.txt
+  198  git status
+  199  git log --oneline
+  200  ll
+  201  git checkout master
+  202  ll
+  203  cat training.txt
+  204  git merge new-branch1
+  205   git log --oneline
+  206  git status
+  207  ll
+  208  cat training.txt
+  209  git merge --abort
+  210  git status
+  211  vi training.txt
+  212  git merge new-branch1
+  213  ll
+  214  vi training.txt
+  215  cp training.txt /tmp/
+  216  vi training.txt
+  217  git merge new-branch1
+  218  ll
+  219  git add training.txt
+  220  git commit -m "resolving conflct"
+  221  git status
+  222  git merge new-branch1
+  223  git branch
+  224  git tag
+  225  git tag REL-1.0
+  226  git tag
+  227  git log --oneline
+  228  git tag
+  229  git checkout REL-1.0
+  230  git branch
+  231  git checkout -b hotfix
+  232  git branch
+  233  git remore -v
+  234  git remote -v
+  235  git remote add origin https://github.com/deba718/synechron-aug.git
+  236  git push -u origin master
+  237  history
+
